@@ -12,6 +12,7 @@ namespace ConsoleApp1
         static void Main(string[] args)
         {
             //Print
+            
             string m = "Hello World!";
             Console.WriteLine(Alfa(m));
             Console.WriteLine(40 * 30);
