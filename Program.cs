@@ -24,6 +24,7 @@ namespace ConsoleApp1
             //C# Type Casting
             //Explicit Casting
             //Explicit casting must be done manually by placing the type in parentheses in front of the value:
+            
             double x = 4.00;
             int y = (int)x;
 
@@ -31,6 +32,7 @@ namespace ConsoleApp1
             //It is also possible to convert data types explicitly by using built-in methods, such as Convert.ToBoolean,
             //Convert.ToDouble, Convert.ToString, Convert.ToInt32(int) and Convert.ToInt64(long):
             //Case one
+
             int myInt = 10;
             double myDouble = 5.25;
             bool myBool = true;
@@ -39,7 +41,9 @@ namespace ConsoleApp1
             Console.WriteLine(Convert.ToDouble(myInt));    // convert int to double
             Console.WriteLine(Convert.ToInt32(myDouble));  // convert double to int
             Console.WriteLine(Convert.ToString(myBool));   // convert bool to string
+            
             //Case Two
+            
             string u = "30";
             string d = "60";
 
@@ -52,6 +56,7 @@ namespace ConsoleApp1
             Console.WriteLine(name);
 
             //Short Hand If...Else(Ternary Operator)
+            
             Console.Write("Entr your age : ");
             int age = int.Parse(Console.ReadLine());
             string result = (age > 16) ? "Done" : "Feald";
