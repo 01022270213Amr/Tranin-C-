@@ -35,6 +35,7 @@ namespace ConsoleApp1
             //Case one
 
             int myInt = 10;
+
             double myDouble = 5.25;
             bool myBool = true;
 
